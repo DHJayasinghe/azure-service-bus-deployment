@@ -1,8 +1,8 @@
-﻿using System.Collections;
+﻿using SharedKernel;
 
 namespace Infrastructure.EventBus.Core
 {
-    public sealed class NotificationQueue : Queue
+    public sealed class NotificationQueue : IEventBusQueue
     {
     }
 }

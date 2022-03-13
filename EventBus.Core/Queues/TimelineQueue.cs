@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using SharedKernel;
+using System.Collections;
 
 namespace Infrastructure.EventBus.Core
 {
-    public sealed class TimelineQueue : Queue
+    public sealed class TimelineQueue : IEventBusQueue
     {
     }
 }
