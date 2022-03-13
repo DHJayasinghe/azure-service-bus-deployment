@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{52874D44-FBC4-433E-A39C-4B661A9AA41A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.EventBus.Admin", "EventBus.Admin\Infrastructure.EventBus.Admin.csproj", "{EDBEDC5C-F29A-4FB8-9563-E1F8B376E03B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Admin", "EventBus.Admin\EventBus.Admin.csproj", "{EDBEDC5C-F29A-4FB8-9563-E1F8B376E03B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.EventBus.Core", "EventBus.Core\Infrastructure.EventBus.Core.csproj", "{F80C3C38-17B1-4C95-BDB2-3D11A1E353A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Core", "EventBus.Core\EventBus.Core.csproj", "{F80C3C38-17B1-4C95-BDB2-3D11A1E353A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
